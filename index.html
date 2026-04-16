@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Madula Phindulo Pearl | Portfolio</title>
-  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet"/>
+  
   <style>
     :root {
       --bg:      #0d0d0d;
@@ -30,7 +30,7 @@
       overflow-x: hidden;
     }
 
-    /* NAV */
+    
     nav {
       position: fixed;
       top: 0; left: 0; right: 0;
@@ -59,7 +59,7 @@
     }
     .nav-links a:hover { color: var(--coral); }
 
-    /* HOME — photo as full background */
+    
     #home {
       min-height: 100vh;
       display: flex;
@@ -147,7 +147,7 @@
       to   { opacity: 1; transform: translateY(0); }
     }
 
-    /* GENERAL SECTIONS */
+    
     section { padding: 6rem 5%; }
 
     .section-label {
@@ -172,7 +172,7 @@
       line-height: 1.1;
     }
 
-    /* ABOUT */
+    
     #about { background: var(--surface); }
     .about-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 4rem; align-items: start; }
     .about-text p { color: #aaa; margin-bottom: 1.2rem; }
@@ -251,7 +251,7 @@
     }
     .familiar-list strong { color: var(--text); }
 
-    /* PROJECTS */
+    
     #projects { background: var(--bg); }
     .projects-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem; }
 
@@ -285,7 +285,7 @@
     .project-tools { display: flex; flex-wrap: wrap; gap: 0.5rem; }
     .tool-tag { background: rgba(255,255,255,0.06); color: var(--muted); font-size: 0.78rem; padding: 0.3rem 0.8rem; border-radius: 6px; font-weight: 500; }
 
-    /* CONTACT */
+    
     #contact { background: var(--surface); }
 
     .contact-links { display: flex; flex-direction: column; gap: 1rem; max-width: 500px; }
@@ -317,7 +317,7 @@
     .contact-link .link-info small { display: block; color: var(--muted); font-size: 0.75rem; text-transform: uppercase; letter-spacing: 1px; }
     .contact-link .link-info span { font-size: 0.9rem; font-weight: 500; }
 
-    /* FOOTER */
+  
     footer {
       background: var(--bg);
       border-top: 1px solid var(--border);
@@ -330,7 +330,7 @@
     .footer-links a { color: var(--muted); text-decoration: none; font-size: 0.85rem; transition: color 0.2s; }
     .footer-links a:hover { color: var(--yellow); }
 
-    /* RESPONSIVE */
+    
     @media (max-width: 900px) {
       .about-grid { grid-template-columns: 1fr; gap: 2.5rem; }
     }
@@ -341,14 +341,14 @@
       section { padding: 4rem 4%; }
     }
 
-    /* SCROLL REVEAL */
+    
     .reveal { opacity: 0; transform: translateY(30px); transition: opacity 0.6s ease, transform 0.6s ease; }
     .reveal.visible { opacity: 1; transform: translateY(0); }
   </style>
 </head>
 <body>
 
-  <!-- NAV -->
+  
   <nav>
     <ul class="nav-links">
       <li><a href="#home">Home</a></li>
@@ -359,7 +359,7 @@
     </ul>
   </nav>
 
-  <!-- HOME — your photo is the background  -->
+  
   <section id="home">
     <div class="blob blob1"></div>
     <div class="blob blob2"></div>
@@ -381,7 +381,7 @@
     </div>
   </section>
 
-  <!-- ABOUT -->
+  
   <section id="about">
     <div class="reveal">
       <h2 class="section-title">About Me</h2>
@@ -424,7 +424,7 @@
     </div>
   </section>
 
-  <!-- PROJECTS -->
+  
   <section id="projects">
     <div class="reveal">
       <h2 class="section-title">My Projects</h2>
@@ -453,7 +453,7 @@
     </div>
   </section>
 
-  <!-- CONTACT — links only, no form -->
+  
   <section id="contact">
     <div class="reveal">
       <h2 class="section-title">Contact Me</h2>
@@ -484,7 +484,7 @@
     </div>
   </section>
 
-  <!-- FOOTER -->
+  
   <footer>
     <div class="footer-links">
       <a href="#home">Home</a>
